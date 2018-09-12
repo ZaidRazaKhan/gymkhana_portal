@@ -26,9 +26,10 @@ Procedure:
     python3 -m venv gymkhana_venv
     source gymkhana_venv/bin/activate
     ```
-- Use pip to install other dependencies from `requirements.txt`
+- Use pip to install other dependencies from `requirements`
     ```
-    pip install -r requirements.txt
+    pip install -r requirements/dev.txt   # for Developer mode dependencies
+    pip install -r requirements/prod.txt  # for Production level dependencies
     ```
 - Change to `src` directory
     ```
